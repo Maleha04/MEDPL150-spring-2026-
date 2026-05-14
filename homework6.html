@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T-Shirt Pattern</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightgray;
+            text-align: center;
+            margin: 0;
+            padding: 40px;
+        }
+
+        h2 {
+            font-size: 36px;
+            color: #222;
+            margin-bottom: 40px;
+            letter-spacing: 2px;
+        }
+
+        .gallery {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            flex-wrap: wrap;
+            margin-bottom: 40px;
+        }
+
+        img {
+            width: 400px;
+            border-radius: 20px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+            transition: transform 0.3s ease;
+        }
+
+        img:hover {
+            transform: scale(1.05);
+        }
+
+        a {
+            display: inline-block;
+            text-decoration: none;
+            background-color: #222;
+            color: white;
+            padding: 14px 28px;
+            border-radius: 12px;
+            font-size: 18px;
+            transition: background-color 0.3s ease;
+        }
+
+        a:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>T-SHIRT PATTERN</h2>
+
+    <div class="gallery">
+        <img src="frontsidetshirt.png" alt="Front Side T-Shirt">
+        <img src="backsidetshirt.png" alt="Back Side T-Shirt">
+    </div>
+
+    <a href="index.html">← Back to Homepage</a>
+
+</body>
+</html>
