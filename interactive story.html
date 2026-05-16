@@ -1,70 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-     <style>
-      body {
-        background-color: black;
-       
 
-      }
-    </style>
-    <link rel="stylesheet" href="style.css">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Abandoned Hospital</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+
+            background-image: url("hospital1.png");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+
+            color: white;
+            text-align: center;
+        }
+
+        .overlay {
+            width: 100%;
+            min-height: 100vh;
+
+            background-color: rgba(0, 0, 0, 0.7);
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .text {
+            max-width: 850px;
+            padding: 40px;
+            font-size: 25px;
+            line-height: 2;
+        }
+
+        .title {
+            color: red;
+            font-size: 50px;
+            font-weight: bold;
+            text-shadow: 0px 0px 18px red;
+        }
+
+        .quote {
+            color: lightgray;
+            font-size: 32px;
+            font-style: italic;
+            text-shadow: 0px 0px 12px white;
+        }
+
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        a:hover {
+            color: white;
+            text-shadow: 0px 0px 12px red;
+        }
+    </style>
+
 </head>
+
 <body>
-    <div class="container">
-        <img class="image" src= "hospital1.png"
-        alt="Image">
-<div class= "text">
-    <br>
-    <br>
-You wake up in an old abandoned hospital during a thunderstorm. 
-<br>
-<br>
-The lights flicker, and the hallways smell like dust
-& something rotten. 
-<br>
-<br>
-You don’t remember how you got there. 
-<br>
-<br>
-All you hear is a whisper saying, 
-<br>
-<br>
-“Find the key before midnight.”
-<br>
-<br>
-You stand in the dark lobby & there are three places you can go:
-<br>
-<br>
-<a href= "the basement stairs.html" > 💀 THE BASEMENT STAIRS </a>
-<br>
-<br>
-<a href= "the second-floor stairs.html" >  💀 THE SECOND-FLOOR STAIRS </a>
-<br>
-<br>
-<a href="the security office.html">  💀 THE SECURITY OFFICE </a>
-<br>
-<br>
-<a href="final choice.html"> 💀 FINAL CHOICE </a>
-<br>
-<br>
-<a href="index.html"> HOMEPAGE </a>
 
+    <div class="overlay">
 
-<style>
-a {
-  color: red; /* normal link color */
-}
-</style>
+        <div class="text">
 
+            <p class="title">
+                ABANDONED HOSPITAL
+            </p>
 
+            <p>
+                You wake up in an old abandoned hospital during a thunderstorm.
+            </p>
 
-</div>
-</div>  
+            <p>
+                The lights flicker, and the hallways smell like dust and something rotten.
+            </p>
 
-    
+            <p>
+                You don’t remember how you got there.
+            </p>
+
+            <p>
+                All you hear is a whisper saying,
+            </p>
+
+            <p class="quote">
+                “Find the key before midnight.”
+            </p>
+
+            <p>
+                You stand in the dark lobby, and there are three places you can go:
+            </p>
+
+            <p>
+                <a href="the basement stairs.html">
+                    💀 THE BASEMENT STAIRS
+                </a>
+            </p>
+
+            <p>
+                <a href="the second-floor stairs.html">
+                    💀 THE SECOND-FLOOR STAIRS
+                </a>
+            </p>
+
+            <p>
+                <a href="the security office.html">
+                    💀 THE SECURITY OFFICE
+                </a>
+            </p>
+
+            <p>
+                <a href="final choice.html">
+                    💀 FINAL CHOICE
+                </a>
+            </p>
+
+            <p>
+                <a href="index.html">
+                    💀 HOMEPAGE
+                </a>
+            </p>
+
+        </div>
+
+    </div>
+
 </body>
 </html>

@@ -1,45 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-     <style>
-      body {
-        background-color: black;
-       
 
-      }
-    </style>
-    <link rel="stylesheet" href="style.css">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Good Ending</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+
+            background-image: url("exit.jpeg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+
+            color: white;
+            text-align: center;
+        }
+
+        .overlay {
+            width: 100%;
+            min-height: 100vh;
+
+            background-color: rgba(0, 0, 0, 0.65);
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .text {
+            max-width: 800px;
+            padding: 40px;
+            font-size: 26px;
+            line-height: 2;
+        }
+
+        .title {
+            color: lightgreen;
+            font-size: 44px;
+            font-weight: bold;
+            text-shadow: 0px 0px 15px lightgreen;
+        }
+
+        .ending {
+            color: white;
+            font-size: 34px;
+            font-weight: bold;
+            text-shadow: 0px 0px 12px white;
+        }
+
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        a:hover {
+            color: white;
+            text-shadow: 0px 0px 12px red;
+        }
+    </style>
+
 </head>
+
 <body>
-    <div class="container">
-        <img class="image" src= "exit.jpeg"
 
-        alt="Image">
+    <div class="overlay">
 
-<div class= "text">
-    <br>
-    <br>
-   <br> LEAVE THE KEY: 
-    <br>
-    <br>
-    <br>The door opens, and the storm stops. 
-    <br>
-    <br>
-    <br>You escape safely. 
-    <br>
-    <br>
-   <br> GOOD ENDING!
-    <br>
-    <br>
-<br>  <a href="final choice.html"> 💀 FINAL CHOICE </a>
+        <div class="text">
 
-<style>
-a {
-  color: red; /* normal link color */
-}
-</style>
+            <p class="title">
+                LEAVE THE KEY
+            </p>
 
-</div>
+            <p>
+                The door opens, and the storm stops.
+            </p>
+
+            <p>
+                You escape safely.
+            </p>
+
+            <p class="ending">
+                GOOD ENDING
+            </p>
+
+            <p>
+                <a href="final choice.html">
+                    💀 FINAL CHOICE
+                </a>
+            </p>
+
+        </div>
+
+    </div>
+
+</body>
+</html>

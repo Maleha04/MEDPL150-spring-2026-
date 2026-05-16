@@ -1,41 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-     <style>
-      body {
-        background-color: black;
-       
 
-      }
-    </style>
-    <link rel="stylesheet" href="style5.css">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Keep Walking</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+
+            background-image: url("darkness.jpeg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+
+            color: white;
+            text-align: center;
+        }
+
+        .overlay {
+            width: 100%;
+            min-height: 100vh;
+
+            background-color: rgba(0, 0, 0, 0.75);
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .text {
+            max-width: 750px;
+            padding: 40px;
+            font-size: 26px;
+            line-height: 2;
+        }
+
+        .title {
+            color: red;
+            font-size: 42px;
+            font-weight: bold;
+            text-shadow: 0px 0px 15px red;
+        }
+
+        .ending {
+            color: lightgray;
+            font-size: 32px;
+            font-style: italic;
+            text-shadow: 0px 0px 10px white;
+        }
+
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        a:hover {
+            color: white;
+            text-shadow: 0px 0px 12px red;
+        }
+    </style>
+
 </head>
+
 <body>
-    <div class="container">
-        <img class="image" src= "darkness.jpeg"
 
-        alt="Image">
+    <div class="overlay">
 
-<div class= "text">
-    <br>
-    <br>
-KEEP WALKING :
-<br>
-<br>
-At the end of the hall, the floor breaks beneath you. 
- <br>
- <br>
-Bad Ending: You fall into darkness. 
-<br>
-<br>
-<a href="interactive story.html"> 💀 TRY AGAIN? </a>
-<style>
-a {
-  color: red; /* normal link color */
-}
-</style>
+        <div class="text">
 
-</div>
+            <p class="title">
+                KEEP WALKING
+            </p>
+
+            <p>
+                At the end of the hall, the floor breaks beneath you.
+            </p>
+
+            <p class="ending">
+                Bad Ending: You fall into darkness.
+            </p>
+
+            <p>
+                <a href="interactive story.html">
+                    💀 TRY AGAIN?
+                </a>
+            </p>
+
+        </div>
+
+    </div>
+
+</body>
+</html>

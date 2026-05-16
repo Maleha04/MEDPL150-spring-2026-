@@ -1,43 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-     <style>
-      body {
-        background-color: black;
-       
 
-      }
-    </style>
-    <link rel="stylesheet" href="style5.css">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Go To The Basement</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+
+            background-image: url("12.jpeg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+
+            color: white;
+            text-align: center;
+        }
+
+        .overlay {
+            width: 100%;
+            min-height: 100vh;
+
+            background-color: rgba(0, 0, 0, 0.7);
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .text {
+            max-width: 750px;
+            padding: 40px;
+            font-size: 26px;
+            line-height: 2;
+        }
+
+        .title {
+            color: red;
+            font-size: 42px;
+            font-weight: bold;
+            text-shadow: 0px 0px 15px red;
+        }
+
+        .key {
+            color: silver;
+            font-size: 30px;
+            font-style: italic;
+            text-shadow: 0px 0px 12px white;
+        }
+
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        a:hover {
+            color: white;
+            text-shadow: 0px 0px 12px red;
+        }
+    </style>
+
 </head>
+
 <body>
-    <div class="container">
-        <img class="image" src= "12.jpeg"
 
-        alt="Image">
+    <div class="overlay">
 
-<div class= "text">
-    <br>
-    <br>
-GO TO THE BASEMENT :
-<br>
-<br>
- You find the key and hear screams above. 
-<br>
-<br>
-Run to the exit.
-<br> 
-<br> 
-<a href="interactive story.html"> 💀 GO BACK </a>
+        <div class="text">
 
-<style>
-a {
-  color: red; /* normal link color */
-}
-</style>
+            <p class="title">
+                GO TO THE BASEMENT
+            </p>
 
+            <p class="key">
+                You find the key and hear screams above.
+            </p>
 
-</div>
+            <p>
+                Run to the exit.
+            </p>
+
+            <p>
+                <a href="interactive story.html">
+                    💀 GO BACK
+                </a>
+            </p>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
