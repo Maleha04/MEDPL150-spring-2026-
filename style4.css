@@ -1,24 +1,51 @@
- .container {
-            position: relative;
-            width: 1200px;
-            height: 900px;
-        }
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 
-        
-        img {
-             width: 100%;
-            height: 100%;
-            object-fit: cover;
+    background-image: url("Security.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    color: white;
+    text-align: center;
 }
-        
-           
-        
 
-        .text {
-            position: absolute;
-            top: 8px;
-            left: 16px;
-            color: white;
-            font-size: 30px;
-            font-weight: bold;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+.overlay {
+    width: 100%;
+    min-height: 100vh;
+
+    background-color: rgba(0, 0, 0, 0.65);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    max-width: 700px;
+    padding: 40px;
+    font-size: 22px;
+    line-height: 1.8;
+}
+
+.title {
+    color: red;
+    font-size: 34px;
+    font-weight: bold;
+    text-shadow: 0px 0px 12px red;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: white;
+    text-shadow: 0px 0px 12px red;
+}
